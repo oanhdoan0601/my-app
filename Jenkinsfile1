@@ -9,6 +9,6 @@ node {
       mail bcc: '', body: '''Hi, 
       Welcome to jenkin email alerts
       Thanks, 
-      Cecilia''', cc: '', from: '', replyTo: '', subject: 'jenkin job git-maven', to: 'missdoan0601@gmail.com'
+      Cecilia''', cc: '', from: '', replyTo: '', subject: 'jenkin job git-maven', to: 'hoang_d_87@hotmail.com'
    }  
  }
