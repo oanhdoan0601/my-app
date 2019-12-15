@@ -7,8 +7,8 @@ node {
   }
   stage('Email Notification'){
       mail bcc: '', body: '''Hi, 
-        Welcome to jenkin email alerts
-          Thanks, 
-            Cecilia''', cc: '', from: '', replyTo: '', subject: 'jenkin job git-maven', to: 'missdoan0601@gmail.com'
-  }
+      Welcome to jenkin email alerts
+      Thanks, 
+      Cecilia''', cc: '', from: '', replyTo: '', subject: 'jenkin job git-maven', to: 'missdoan0601@gmail.com'
+   }  
  }
