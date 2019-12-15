@@ -6,10 +6,6 @@ node {
   sh 'mvn package'
   }
   stage('Email Notification'){
-	          mail bcc: '', body: """Hi Team, You build successfully deployed
-		                       Job URL : ${env.JOB_URL}
-							                      Job Name: ${env.JOB_NAME}
-  Thanks,
-  mail bcc: '', body: 'hi, check it', cc: '', from: '', replyTo: '', subject: 'jenkinsfile-git-maven', to: 'missdoan0601@gmail.com'
-  }
+
+}
   }
