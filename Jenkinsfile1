@@ -1,0 +1,8 @@
+node {
+  stage('SCM checkout')
+  git 'https://github.com/oanhdoan0601/my-app'
+  }
+  stage('Comple and Package'){
+  sh 'mvn package'
+  }
+  
